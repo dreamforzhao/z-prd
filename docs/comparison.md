@@ -55,3 +55,23 @@
 - 增加 `docs/context-workspace.md`：说明长期项目如何维护产品上下文。
 - 增加轻量检查清单：PRD ready、prototype ready、handoff ready。
 - 增加 Marketplace metadata：让安装入口更友好。
+
+## 设计输出与协作平台
+
+常见产品交付不止 PRD，也可能进入低保真、原型、标注、设计系统、研发交接或可运行原型。`Z-PRD` 参考了几类主流工具的工作方式：
+
+- 墨刀：产品原型、交互、高保真、AI 生成 PRD/原型等产品团队协作能力。
+- 蓝湖：偏设计交付、标注、资产和研发协作。
+- Figma：设计、原型、设计交接、Dev Mode、MCP/设计上下文到代码。
+- MasterGo：原型设计、界面设计、研发模式和产设研协同。
+- Pixso：在线协同设计、原型和设计交付。
+
+参考入口：
+
+- [墨刀](https://modao.cc/)
+- [蓝湖](https://lanhuapp.com/)
+- [Figma Dev Mode](https://www.figma.com/dev-mode/)
+- [MasterGo](https://mastergo.com/)
+- [Pixso](https://pixso.cn/)
+
+但 `Z-PRD` 不把这些作为默认强制阶段。产品文档确认后，必须先问用户是否继续设计输出；用户不继续，就停在当前成果。这是为了节省上下文，也符合真实产品工作里“阶段性交付可结束”的节奏。

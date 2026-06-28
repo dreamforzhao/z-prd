@@ -59,6 +59,8 @@ flowchart LR
 
 默认会在产品文档阶段暂停，等你确认后再进入 UI 原型或开发。只有当你明确说“无需审核”“直接跑完”“不要停”时，才会跳过评审点。
 
+产品文档确认后，`Z-PRD` 还会再问一次是否继续输出设计落地材料。不继续就停在当前成果，避免为了“看起来完整”而浪费上下文。
+
 ## 输出内容
 
 评审点通常包含：
@@ -88,6 +90,22 @@ flowchart LR
 - [`multi-agent-routing.md`](skills/z-prd/references/multi-agent-routing.md)
 - [`token-budget-guide.md`](skills/z-prd/references/token-budget-guide.md)
 
+## 设计落地输出
+
+产品方案被认可后，后续设计输出不是必选项。`Z-PRD` 会先询问是否继续：
+
+| 选择 | 适合场景 | 输出 |
+| --- | --- | --- |
+| 不继续 | 当前 PRD/产品设计已经够用 | 阶段总结、下一步建议 |
+| 低保真 | 还要先确认结构和流程 | 页面清单、用户流程、线框说明、状态矩阵 |
+| 设计交付包 | 设计师或协作平台继续落地 | 页面规格、组件、文案、样例数据、设计 token |
+| 平台协作 | 团队使用墨刀、蓝湖、Figma、MasterGo、Pixso 等工具 | 上传清单、标注说明、交互说明、资产清单 |
+| 可运行原型 | 需要评审或开发复刻 | HTML/React 原型、响应式检查、视觉验证 |
+
+如果用户已经登录墨刀、蓝湖等平台，并明确要求上传，`Z-PRD` 可以协助整理上传材料并通过浏览器操作上传；上传前会确认目标空间、文件内容和外部提交动作。
+
+设计输出规则见 [`design-output-options.md`](skills/z-prd/references/design-output-options.md)。
+
 ## 与热门项目的关系
 
 `Z-PRD` 借鉴了热门 PM skill 项目的优点，但刻意保持轻量：
@@ -116,7 +134,8 @@ repo-root/
         └── references/
             ├── multi-agent-routing.md
             ├── product-flow-template.md
-            └── token-budget-guide.md
+            ├── token-budget-guide.md
+            └── design-output-options.md
 ```
 
 ## 设计原则
