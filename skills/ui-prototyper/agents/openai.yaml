@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 原型专家"
+  short_description: "把产品方案变成可运行、可评审的交互式 UI 原型。"
+  default_prompt: "Use $ui-prototyper to create an interactive UI prototype from this product spec."

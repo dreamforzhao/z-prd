@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品设计专家"
+  short_description: "从需求推导产品结构、流程、状态、MVP 范围和版本方案。"
+  default_prompt: "Use $product-designer to design the product flow and feature structure from this PRD."
