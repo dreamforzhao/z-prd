@@ -65,6 +65,8 @@ After the product document is approved, do not automatically continue into desig
 
 If the user chooses not to continue, summarize the approved artifact and stop.
 
+If the user chooses a platform or deliverable, continue immediately with that output contract. Do not stop at a choice list.
+
 Use `references/design-output-options.md` before producing platform-specific design handoff material.
 
 ## Multi-Agent Rule
