@@ -1,4 +1,0 @@
-﻿interface:
-  display_name: "产品流程总控"
-  short_description: "一句话想法自动推进需求分析、产品设计和 UI 原型。"
-  default_prompt: "Use $product-workflow to turn this one-sentence product idea into a complete PRD, product design, and prototype plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Z-PRD"
+  short_description: "一句话想法到 PRD、产品设计、UI 原型计划和研发交接。"
+  default_prompt: "Use $z-prd to turn this product idea into a reviewed product plan, prototype plan, and development handoff."
